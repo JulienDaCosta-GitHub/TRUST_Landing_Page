@@ -241,6 +241,10 @@ footer p {
 /* RESPONSIVE */
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .accueil {
+        background-position-x: 8%;
+    }
+
     .logo img {
         height: 90px;
     }
@@ -355,6 +359,10 @@ footer p {
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
+
+        .accueil {
+            background-position-x: 25%;
+        }
 
         .logo {
             padding: 50px;
