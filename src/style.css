@@ -304,6 +304,7 @@ footer p {
         margin: 0;
         padding: 50px 30px;
         padding-bottom: 25px;
+        text-align: center;
     }
 
     .maquette img {
@@ -361,10 +362,11 @@ footer p {
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
-      .logo {
-        top: 50%;
-        transform: translate(0px, -70px);
-      }
+        .logo {
+          top: 50%;
+          transform: translate(0px, -70px);
+        }
+        
         .logo img {
           height: 65px;
         }
@@ -416,6 +418,9 @@ footer p {
         .maquette h2 {
             margin: 0;
             padding: 50px 30px;
+            padding-bottom: 25px;
+            font-size: 18px;
+            text-align: center;
         }
 
         .maquette img {
@@ -428,6 +433,7 @@ footer p {
         .agence {
             margin-left: 0;
             padding: 10px 40px;
+            padding-bottom: 25px;
         }
 
         .agence p {
