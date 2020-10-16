@@ -245,7 +245,7 @@ footer p {
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
         top: 50%;
-        transform: translate(0px, -50px);
+        transform: translate(0px, -60px);
     }
 
     .logo img {
@@ -363,7 +363,7 @@ footer p {
   @media (min-width: 320px) and (max-width: 767px) {
       .logo {
         top: 50%;
-        transform: translate(0px, -50px);
+        transform: translate(0px, -60px);
       }
         .logo img {
           height: 65px;
