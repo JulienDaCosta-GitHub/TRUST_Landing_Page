@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'FilsonPro-Medium';
+    src: url('../fonts/FilsonPro-Medium.woff2') format('woff2'),
+         url('../fonts/FilsonPro-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.accueil {
+    height: 100vh;
+    background-image: url(../img/entreprise.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.presentation {
+    position: relative;
+    top: 300px;
+}
+
+.presentation h1 {
+    width: 1000px;
+    margin: auto;
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'FilsonPro-Medium';
+    color: #0e0f3b;
+}
+
+.down-arrow {
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 0;
+    position: absolute;
+}
+
+.down-arrow img {
+    height: 115px;
+    transition: all 0.5s ease;
+}
+
+.down-arrow img:hover {
+    height: 130px;
+}
+
+.rse {
+    padding: 30px 50px;
+    background-color: #f3911e;
+}
+
+.rse p {
+    color: #f6ebd5;
+    font-family: 'FilsonPro-Medium';
+    font-size: 20px;
+    line-height: 30px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stat {
+    padding: 50px;
+    margin: auto;
+    background-color: #f6ebd5;
+}
+
+.stat .analyse {
+    color: #0e0f3b;
+    font-family: 'FilsonPro-Medium';
+    font-size: 20px;
+    line-height: 30px;
+    width: 1400px;
+    margin: auto;
+}
+
+.each-problem {
+    display: flex;
+    margin-top: 40px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.each-problem p {
+    color: #0e0f3b;
+    font-family: 'FilsonPro-Medium';
+    font-size: 20px;
+    line-height: 30px;
+    width: 1000px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+}
+
+.each-problem img {
+    height: 60px;
+    width: auto;
+}
+
+.trust {
+    background-color: #f3911e;
+    display: flex;
+    padding: 50px 200px;
+}
+
+.maquette h2 {
+    font-family: 'FilsonPro-Medium';
+    color: #f6ebd5;
+}
+
+.maquette img {
+    height: 300px;
+    border-radius: 15px;
+}
+
+.access-web {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.access-web a {
+    background-color: #0e0f3b;
+    padding: 20px 50px;
+    color: #f6ebd5;
+    text-decoration: none;
+    font-family: 'FilsonPro-Medium';
+    border-radius: 30px;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+
+.access-web a:hover {
+    background-color: #f6ebd5; 
+    color: #0e0f3b;
+}
+
+.agence {
+    margin-left: 85px;
+}
+
+.agence p {
+    font-family: 'FilsonPro-Medium';
+    color: #f6ebd5;
+    line-height: 20px;
+}
+
+.label {
+    padding: 50px;
+    background-color: #f6ebd5;
+}
+
+.label h2 {
+    font-family: 'FilsonPro-Medium';
+    text-align: center;
+    color: #0e0f3b;
+}
+
+.criteres {
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.each-picto {
+    text-align: center;
+}
+
+.each-picto img {
+    height: 100px;
+}
+
+.each-picto p {
+    font-family: 'FilsonPro-Medium';
+    text-transform: uppercase;
+    color: #0e0f3b;
+}
+
+.socialnetworks {
+    padding: 50px;
+    background-color: #f3911e;
+    height: 170px;
+}
+
+.socialnetworks h2 {
+    text-align: center;
+    font-family: 'FilsonPro-Medium';
+    color: #f6ebd5;
+    margin: auto;
+    width: 1400px;
+}
+
+.links {
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.links img {
+    height: 48px;
+    transition: all 0.5s ease;
+}
+
+.links img:hover {
+    height: 58px;
+}
+
+footer {
+    background-color: #0e0f3b;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'FilsonPro-Medium';
+    color: #f6ebd5;
+    margin: 0;
+    padding: 25px;
+}
