@@ -197,7 +197,7 @@ body {
 .socialnetworks {
     padding: 50px;
     background-color: #f3911e;
-    height: 310px;
+    min-height: 310px;
 }
 
 .socialnetworks h2 {
@@ -240,3 +240,228 @@ footer p {
     margin: 0;
     padding: 25px;
 }
+
+/* RESPONSIVE */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        top: 355px;
+    }
+
+    .logo img {
+        height: 100px;
+    }
+
+    .presentation {
+        top: 400px;
+    }
+
+    .presentation h1 {
+        width: unset;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .down-arrow img {
+        height: 100px;
+    }
+
+    .down-arrow img:hover {
+        height: 120px;
+    }
+
+    .rse p {
+        width: unset;
+        font-size: 18px;
+    }
+
+    .stat .analyse {
+        width: unset;
+        font-size: 18px;
+    }
+
+    .each-problem {
+        display: block;
+    }
+
+    .each-problem img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin-bottom: 20px;
+    }
+
+    .each-problem p {
+        width: unset;
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    .trust {
+        display: block;
+        padding: unset;
+    }
+
+    .maquette h2 {
+        margin: 0;
+        padding: 50px 30px;
+        padding-bottom: 25px;
+    }
+
+    .maquette img {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        height: 330px;
+    }
+
+    .agence {
+        margin-left: 0;
+        padding: 10px 40px;
+        padding-bottom: 25px;
+    }
+
+    .agence p {
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .label {
+        padding: 30px 40px;
+    }
+
+    .label h2 {
+        font-size: 18px;
+    }
+
+    .criteres {
+        width: unset;
+        display: block;
+    }
+
+    .each-picto {
+        margin-bottom: 50px;
+    }
+
+    .socialnetworks {
+        padding: 30px 40px;
+    }
+
+    .socialnetworks h2 {
+        font-size: 18px;
+        width: unset;
+    }
+
+    .access-web a {
+        padding: 20px 30px;
+        font-size: 14px;
+    }
+
+    .links {
+        width: 325px;
+    }
+  }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+        .logo img {
+          height: 50px;
+        }
+
+        .presentation h1 {
+            width: unset;
+            font-size: 18px;
+            padding: 20px;
+        }
+
+        .down-arrow img {
+            height: 60px;
+        }
+
+        .rse p {
+            width: unset;
+            font-size: 18px;
+        }
+
+        .stat .analyse {
+            width: unset;
+            font-size: 18px;
+        }
+
+        .each-problem {
+            display: block;
+        }
+
+        .each-problem img {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            margin-bottom: 20px;
+        }
+
+        .each-problem p {
+            width: unset;
+            margin-left: 0;
+            font-size: 18px;
+        }
+
+        .trust {
+            display: block;
+            padding: unset;
+        }
+
+        .maquette h2 {
+            margin: 0;
+            padding: 50px 30px;
+        }
+
+        .maquette img {
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0%);
+            height: 150px;
+        }
+
+        .agence {
+            margin-left: 0;
+            padding: 10px 40px;
+        }
+
+        .agence p {
+            line-height: 25px;
+        }
+
+        .label {
+            padding: 30px 40px;
+        }
+
+        .label h2 {
+            font-size: 18px;
+        }
+
+        .criteres {
+            width: unset;
+            display: block;
+        }
+
+        .each-picto {
+            margin-bottom: 50px;
+        }
+
+        .socialnetworks {
+            padding: 30px 40px;
+        }
+
+        .socialnetworks h2 {
+            font-size: 18px;
+            width: unset;
+        }
+
+        .access-web a {
+            padding: 20px 30px;
+            font-size: 14px;
+        }
+
+        .links {
+            width: unset;
+            width: 275px;
+        }
+      }
