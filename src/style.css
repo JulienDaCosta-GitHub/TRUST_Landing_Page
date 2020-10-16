@@ -377,6 +377,10 @@ footer p {
             height: 60px;
         }
 
+        .down-arrow img:hover {
+            height: 80px;
+        }
+
         .rse p {
             width: unset;
             font-size: 18px;
@@ -452,7 +456,7 @@ footer p {
         }
 
         .socialnetworks h2 {
-            font-size: 18px;
+            font-size: 17px;
             width: unset;
         }
 
