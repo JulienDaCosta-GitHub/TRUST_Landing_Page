@@ -366,6 +366,9 @@ footer p {
 
         .logo {
             padding: 50px;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%, 0%);
         }
 
         .logo img {
