@@ -197,7 +197,7 @@ body {
 .socialnetworks {
     padding: 50px;
     background-color: #f3911e;
-    height: 325px;
+    height: 310px;
 }
 
 .socialnetworks h2 {
@@ -208,12 +208,16 @@ body {
     width: 1400px;
 }
 
+.sondage .access-web {
+    margin-bottom: 80px;
+}
+
 .links {
     width: 450px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .links img {
