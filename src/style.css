@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 250px;
+    top: 275px;
 }
 
 .logo img {
@@ -31,7 +31,7 @@ body {
 
 .presentation {
     position: relative;
-    top: 300px;
+    top: 315px;
 }
 
 .presentation h1 {
@@ -244,11 +244,12 @@ footer p {
 /* RESPONSIVE */
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
-        top: 355px;
+        top: 50%;
+        transform: translate(0px, -50px);
     }
 
     .logo img {
-        height: 100px;
+        height: 90px;
     }
 
     .presentation {
@@ -256,9 +257,7 @@ footer p {
     }
 
     .presentation h1 {
-        width: unset;
-        font-size: 18px;
-        padding: 20px;
+        display: none;
     }
 
     .down-arrow img {
@@ -362,14 +361,16 @@ footer p {
   }
 
   @media (min-width: 320px) and (max-width: 767px) {
+      .logo {
+        top: 50%;
+        transform: translate(0px, -50px);
+      }
         .logo img {
-          height: 50px;
+          height: 65px;
         }
 
         .presentation h1 {
-            width: unset;
-            font-size: 18px;
-            padding: 20px;
+            display: none;
         }
 
         .down-arrow img {
