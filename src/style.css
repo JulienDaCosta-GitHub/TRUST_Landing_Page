@@ -132,6 +132,7 @@ body {
 .access-web {
     text-align: center;
     margin-top: 42px;
+    margin-bottom: 40px;
 }
 
 .access-web a {
@@ -196,7 +197,7 @@ body {
 .socialnetworks {
     padding: 50px;
     background-color: #f3911e;
-    height: 170px;
+    height: 325px;
 }
 
 .socialnetworks h2 {
