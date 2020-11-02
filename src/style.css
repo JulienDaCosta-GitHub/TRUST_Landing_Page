@@ -62,7 +62,7 @@ body {
 }
 
 .rse p {
-    color: #f6ebd5;
+    color: white;
     font-family: 'FilsonPro-Medium';
     font-size: 20px;
     line-height: 30px;
@@ -74,7 +74,7 @@ body {
 .stat {
     padding: 50px;
     margin: auto;
-    background-color: #f6ebd5;
+    background-color: white;
 }
 
 .stat .analyse {
@@ -118,7 +118,7 @@ body {
 
 .maquette h2 {
     font-family: 'FilsonPro-Medium';
-    color: #f6ebd5;
+    color: white;
 }
 
 .maquette img {
@@ -135,7 +135,7 @@ body {
 .access-web a {
     background-color: #0e0f3b;
     padding: 20px 50px;
-    color: #f6ebd5;
+    color: white;
     text-decoration: none;
     font-family: 'FilsonPro-Medium';
     border-radius: 30px;
@@ -144,7 +144,7 @@ body {
 }
 
 .access-web a:hover {
-    background-color: #f6ebd5; 
+    background-color: white; 
     color: #0e0f3b;
 }
 
@@ -154,13 +154,13 @@ body {
 
 .agence p {
     font-family: 'FilsonPro-Medium';
-    color: #f6ebd5;
+    color: white;
     line-height: 20px;
 }
 
 .label {
     padding: 50px;
-    background-color: #f6ebd5;
+    background-color: white;
 }
 
 .label h2 {
@@ -200,7 +200,7 @@ body {
 .socialnetworks h2 {
     text-align: center;
     font-family: 'FilsonPro-Medium';
-    color: #f6ebd5;
+    color: white;
     margin: auto;
     width: 1400px;
 }
@@ -233,7 +233,7 @@ footer {
 footer p {
     text-align: center;
     font-family: 'FilsonPro-Medium';
-    color: #f6ebd5;
+    color: white;
     margin: 0;
     padding: 25px;
 }
